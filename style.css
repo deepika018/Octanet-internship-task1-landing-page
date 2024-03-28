@@ -1,0 +1,489 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4bacb;
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    height: 70px;
+}
+
+.navbar a {
+    padding: 5px 15px;
+    font-size: 25px;
+    display: inline-block;
+    color: #ff0000;
+    text-align: center;
+    padding: 5px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #ff0000;
+}
+
+.navbar .logo img {
+    align-items: center;
+    float: left;
+    padding: 5px 15px;
+    height: auto;
+    width: 55px;
+}
+
+.navbar .signup {
+    float: right;
+    padding: 5px 15px;
+}
+
+.navbar .signup a {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.navbar .signup a:hover {
+    background-color: #cc0000;
+}
+
+.navbar .menu-items {
+    text-align: center;
+    padding: 15px 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.food-photo {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.food-photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.marketing-text {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.marketing-text h2 {
+    color: #ff0000;
+}
+
+.statistics {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.stat-box {
+    text-align: center;
+}
+
+.stat-box img {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto 10px;
+}
+
+.statistics p {
+    color: #ff0000;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10vh;
+    height: 70vh;
+}
+
+.col1-1 {
+    flex: 1;
+    text-align: center;
+    padding: 0 15px;
+}
+
+.col1-2 {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.col1-2 img {
+    width: auto;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.col1-1 h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+.col1-1 p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.order-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.order {
+    display: inline-block;
+    background-color: #ff0000;
+    color: #ffffff;
+    border-radius: 50px;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.order:hover {
+    background-color: #cc0000;
+}
+
+.col1-1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.records-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.record {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.record img {
+    max-width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.record p {
+    font-size: 16px;
+    margin: 0;
+}
+
+
+
+
+
+.special-heading {
+    text-align: center;
+    color: #000000; 
+    padding-top: 30px; 
+    margin: 20px auto; 
+    max-width: 60%;
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+}
+
+
+
+.special-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    padding-top: 20px;
+    background-color: #f7fcca;
+}
+
+.special-item {
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    background-color: #e9c9eb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(148, 207, 9, 0.2);
+}
+
+.special-item img {
+    height: 20vh;
+    border-radius: 5px;
+}
+
+.special-item h2 {
+    font-size: 24px;
+    margin-top: 15px;
+}
+
+.special-item .cost {
+    color: #ff0000;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.special-item .prep-time {
+    color: #555;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+
+
+.photo-gallery {
+    text-align: center;
+    padding: 2px 0;
+}
+
+.photo-gallery h2 {
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+    font-weight: bold;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; 
+}
+
+.gallery img {
+    width: calc(25% - 10px); 
+    max-width: 350px;
+    max-height: 350px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.read-more-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #FF5733; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.read-more-button:hover {
+    background-color: #E94E25; 
+}
+
+
+.customer-reviews {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.customer-reviews h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+}
+
+.review {
+    max-width: 300px;
+    background-color: #860ab8;
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.customer-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.customer-info img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-text {
+    font-style: italic;
+}
+
+.chefs-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+   font-size: 30px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: bold;
+}
+
+.chef {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.chef-image img {
+    max-width: 70%;
+}
+
+.chef-details {
+    padding: 20px;
+    text-align: center;
+    max-width: 50%; 
+}
+
+.chef-details h2 {
+    font-size: 24px;
+    color: #ff0000; 
+    margin-bottom: 15px;
+}
+
+.chef-details p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333; 
+}
+
+
+.chef:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+
+.newsletter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 10px;
+    background-color: #f706ff2f;
+}
+
+.newsletter-text {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+}
+
+.newsletter-text h2 {
+    font-size: 24px;
+    color: #000000;
+    margin-bottom: 10px;
+}
+
+.newsletter-text p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px; /
+}
+
+.newsletter-form {
+    flex: 1;
+    text-align: right;
+}
+
+.newsletter-form input[type="email"] {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter-form button {
+    padding: 10px 20px;
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter-form button:hover {
+    background-color: #cc0000; 
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2px 0;
+    text-align: center;
+}
+
+.footer-credit {
+    font-size: 14px;
+    margin-top: 20px;
+    color: #999;
+}
+
+.footer-credit a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer-credit a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
